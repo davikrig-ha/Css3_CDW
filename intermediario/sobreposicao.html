@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Sobrepondo Elementos</title>
+
+    <style type="text/css">
+     .conteudo {
+         border: 1px solid black;
+         background: orangered;
+         width: 200px;
+         height: 200px;
+         position: absolute;
+         z-index: 3;
+     }
+     .conteudo2 {
+         border: 1px solid black;
+         background: aqua;
+         width: 200px;
+         height: 200px;
+         position: absolute;
+         top: 80px;
+         left: 80px;
+         z-index: 2;
+     }
+     .conteudo3 {
+         border: 1px solid black;
+         background: yellow;
+         width: 200px;
+         height: 200px;
+         position: absolute;
+         top: 160px;
+         left: 160px;
+         z-index: 1;
+     }
+
+
+    </style>
+
+</head>
+
+<body>
+    <div class="conteudo">
+        conteúdo
+    </div>
+
+    <div class="conteudo2">
+        conteúdo
+    </div>
+
+    <div class="conteudo3">
+        conteúdo
+    </div>
+    
+</body>
+
+</html>
