@@ -1,0 +1,33 @@
+/* seletor geral */
+
+* {
+    border: 1px solid bisque;
+}
+
+/* seletor de marcação filho*/ 
+
+li > a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+/* seletor que marca o descendente de outro, ou 
+seja um elemento que esteja dentro de uma marcação filho */
+
+div a {
+    color: brown;
+    text-decoration: none;
+}
+
+/* seletor que marca um elemento que é um irmão
+próximo de outro (adjascente)*/
+
+h1 + p {
+   color: orangered;
+}
+
+/* seletor de irmão geral */
+
+h3 ~ p {
+    color: pink;
+}
