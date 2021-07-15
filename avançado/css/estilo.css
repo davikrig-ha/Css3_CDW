@@ -1,33 +1,91 @@
-/* seletor geral */
+/*
+
+seletor geral 
 
 * {
     border: 1px solid bisque;
 }
 
-/* seletor de marcação filho*/ 
+ seletor de marcação filho
 
 li > a {
     color: blueviolet;
     text-decoration: none;
 }
 
-/* seletor que marca o descendente de outro, ou 
-seja um elemento que esteja dentro de uma marcação filho */
+ seletor que marca o descendente de outro, ou 
+seja um elemento que esteja dentro de uma marcação filho 
 
 div a {
     color: brown;
     text-decoration: none;
 }
 
-/* seletor que marca um elemento que é um irmão
-próximo de outro (adjascente)*/
+seletor que marca um elemento que é um irmão
+próximo de outro (adjascente)
 
 h1 + p {
    color: orangered;
 }
 
-/* seletor de irmão geral */
+ seletor de irmão geral 
 
 h3 ~ p {
     color: pink;
+}
+*/
+
+/* seletores iguais, inportant para aplicar 
+o estiilo de um dos dois
+
+#pagina p{
+    color: darkblue !important;
+}
+
+#pagina p {
+    color: cyan;
+}
+*/
+
+/* seletores mais especificos tem precedencia a 
+seletores menos especificos 
+
+* {
+    color: darkgoldenrod;
+}
+
+h2 {
+   color: darkgray;
+}
+
+h2.verde {
+  color: greenyellow;
+}
+*/
+
+/*Barra de Navegação vertical*/
+
+
+
+ul {
+    
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: url(../img/menu.png) no-repeat left bottom;
+} 
+
+a:hover {
+    background-position: right bottom;
+    color: #fff;
 }
