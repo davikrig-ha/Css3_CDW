@@ -1,0 +1,16 @@
+header {
+    border: 2px royalblue;
+    
+}
+
+nav {
+    border: 2px navy;
+}
+
+footer {
+    border: 2px orange;
+}
+
+article {
+    color: #000;
+}
